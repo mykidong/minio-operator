@@ -10,7 +10,7 @@ configMapGenerator:
     literals:
     - tenant=minio-tenant1
     - volumesPerServer=4
-    - capacity=200Gi
+    - capacity=100Gi
     - storageClass=direct.csi.driver.min.io
     - zones=rack1:4
 

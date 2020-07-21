@@ -13,7 +13,6 @@ configMapGenerator:
     - capacity=100Gi
     - storageClass=direct.csi.driver.min.io
     - zones=rack1:4
-
 # Configure repo and tag of MinIO, MCS & KES Image
 images:
   - name: minio/minio

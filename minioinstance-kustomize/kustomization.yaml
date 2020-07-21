@@ -11,7 +11,7 @@ configMapGenerator:
     - tenant=minio-tenant1
     - volumesPerServer=4
     - capacity=200Gi
-    - storageClass=""
+    - storageClass=direct.csi.driver.min.io
     - zones=rack1:4
 
 # Configure repo and tag of MinIO, MCS & KES Image

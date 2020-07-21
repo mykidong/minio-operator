@@ -8,11 +8,11 @@ configurations:
 configMapGenerator:
   - name: minio-storage
     literals:
-    - tenant="minio-tenant1"
+    - tenant=minio-tenant1
     - volumesPerServer=4
-    - capacity="200Gi"
+    - capacity=200Gi
     - storageClass=""
-    - zones="rack1:4"
+    - zones=rack1:4
 
 # Configure repo and tag of MinIO, MCS & KES Image
 images:

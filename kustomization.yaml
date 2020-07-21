@@ -4,7 +4,7 @@ kind: Kustomization
 # Configure number of MinIO Operator Deployment Replicas
 replicas:
   - name: minio-operator
-    count: 1
+    count: 4
 
 # Configure repo and tag of MinIO Operator Image
 images:

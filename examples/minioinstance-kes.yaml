@@ -82,7 +82,7 @@ spec:
         - ReadWriteOnce
       resources:
         requests:
-          storage: 1Ti
+          storage: 100Gi
   ## Define configuration for MCS (Graphical user interface for MinIO)
   mcs:
     image: minio/mcs:v0.2.0

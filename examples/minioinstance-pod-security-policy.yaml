@@ -122,7 +122,7 @@ spec:
         - ReadWriteOnce
       resources:
         requests:
-          storage: 1Ti
+          storage: 100Gi
   ## Secret with credentials to be used by MinIO instance.
   credsSecret:
     name: minio-creds-secret

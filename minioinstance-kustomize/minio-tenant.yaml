@@ -16,7 +16,8 @@ spec:
   credsSecret:
     name: minio-creds-secret
   zones: $(ZONES)
-  volumesPerServer: $(VOLUMES_PER_SERVER)
+  #volumesPerServer: $(VOLUMES_PER_SERVER)
+  volumesPerServer: 100Gi
   mountPath: /export
   volumeClaimTemplate:
     metadata:

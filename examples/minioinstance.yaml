@@ -21,7 +21,7 @@ spec:
       # By default and for convenience, the Kubernetes control plane will allocate a port from a range (default: 30000-32767)
       # nodePort: 30007
   selector:
-    name: minio-operator
+    app: minio
 ---
 apiVersion: operator.min.io/v1
 kind: MinIOInstance
@@ -36,7 +36,7 @@ spec:
   metadata:
     ## Optionally pass labels to be applied to the statefulset pods
     labels:
-      name: minio-operator
+      app: minio
     annotations:
       prometheus.io/path: /minio/prometheus/metrics
       prometheus.io/port: "9000"

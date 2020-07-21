@@ -9,7 +9,7 @@ configMapGenerator:
   - name: minio-storage
     literals:
     - tenant="minio-tenant1"
-    - volumesPerServer=4
+    - volumesPerServer="4"
     - capacity="200Gi"
     - storageClass=""
     - zones="rack1:4"
